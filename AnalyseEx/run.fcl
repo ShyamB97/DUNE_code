@@ -1,0 +1,22 @@
+#include "config.fcl"
+
+process_name: AnalyseEvents
+source:
+{
+	module_type: RootInput
+				 maxEvents:		-1
+				 
+}
+services:
+{
+
+}
+physics:
+{
+	analyzers:
+	{
+		ana: @local::analyse
+	}
+	path0: [ana]
+	end_paths: [path0]
+}

@@ -1,0 +1,13 @@
+%MSG-i MF_INIT_OK:  Early 21-Oct-2020 09:50:02 CDT JobSetup
+Messagelogger initialization complete.
+%MSG
+%MSG-s ArtException:  Early 21-Oct-2020 09:50:03 CDT JobSetup
+cet::exception caught in art
+---- Configuration BEGIN
+  The following were encountered while processing the module configurations:
+    ERROR: Configuration of module with label ana encountered the following error:
+  ---- Configuration BEGIN
+    Library specification "analyzer" does not correspond to any library in CET_PLUGIN_PATH of type "module"
+  ---- Configuration END
+---- Configuration END
+%MSG

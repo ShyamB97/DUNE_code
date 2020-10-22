@@ -1,0 +1,16 @@
+#include "ProtoDUNEDataUtils.fcl"
+
+BEGIN_PROLOG
+
+dataViewer:
+{
+   module_type:             "analyzer"
+   CalorimetryTag:          "pandoracalo"
+   TrackerTag:              "pandoraTrack"
+   ShowerTag:               "pandoraShower"
+   PFParticleTag:           "pandora"
+   Verbose:                 false
+   DataUtils: @local::standard_protodunedatautils
+}
+
+END_PROLOG

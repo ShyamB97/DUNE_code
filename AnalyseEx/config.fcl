@@ -1,0 +1,8 @@
+BEGIN_PROLOG
+
+analyse:
+{
+	module_type:	"Analyse"
+}
+
+END_PROLOG
